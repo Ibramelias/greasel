@@ -1,0 +1,23 @@
+.header{
+    position: relative;
+    padding: 15px 0;
+    background-color: var(--white);
+}
+
+.header--white{
+    background-color: var(--white);
+}
+
+.header--blue{
+    background-color: var(--blue500);
+}
+
+.header-logo{
+    max-width: 200px;
+}
+
+.header-logo img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
