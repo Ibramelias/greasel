@@ -1,0 +1,13 @@
+
+/* css color variables */
+:root{
+    --white: #fff;
+    --grey50: #f0f0f0;
+    --grey100: #d8d8d8;
+    --grey400: #898787;
+    --grey700 : #2e2e2e;
+    --grey900: #212121;
+    --blue500: #24618e;
+    --orange: #ff9000;
+  }
+
