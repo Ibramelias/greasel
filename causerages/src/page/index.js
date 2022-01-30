@@ -6,7 +6,7 @@ import Button from "../components/Button";
 import logo from "../assets/logo.svg";
 import logoWhite from "../assets/logo_white.svg";
 import bg from "../assets/bg.jpg";
-// import './landingPage.css'
+import './landingpage.css'
 
 
 
