@@ -1,0 +1,61 @@
+.main-content{
+    position: relative;
+    background-color: var(--grey50);
+    color: var(--blue500);
+    min-height: 82vh;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    padding-top: 7%;
+}
+.ad_container {
+    position: relative;
+    z-index: 2;
+}
+
+.main-header{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.promotion{
+    display: inline-flex;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.promotion-precentage{
+    font-weight: 700;
+    font-size: 60px;
+    padding-right: 35px;
+    /* padding-bottom: 10px; */
+
+}
+
+.promotional-apr{
+    border-right: 1px solid var(--grey900);
+    padding-right: 35px;
+}
+
+.variable-period{
+    padding-left: 35px;
+}
+
+.main-sub-header{
+    padding-bottom: 50px;
+}
+
+.btns{
+    padding-bottom: 20px;
+}
+
+.apply-fee{
+    /* width: 10%; */
+    padding-left: 30px;
+}
+
+.terms{
+    padding-top: 14%;
+    padding-left: -10px;
+    color: var(--grey400);
+}
