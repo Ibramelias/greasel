@@ -1,17 +1,24 @@
 // import the components / assets to use them in the page 
+import { useState } from "react";
 import Header from "../components/Header"
 import Footer from "../components/Footer";
 import Button from "../components/Button";
 import logo from "../assets/logo.svg";
 import logoWhite from "../assets/logo_white.svg";
 import bg from "../assets/bg.jpg";
-import './landingPage.css'
+// import './landingPage.css'
 
 
 
 
-function landingPage() {
-
+function LandingPage() {
+    const [headerStyle, setHeaderStyle] = useState({ logo, colorClass: "header--white" });
+    function clickHandler() {
+        setHeaderStyle({ logo: logoWhite, colorClass: "header--blue" })
+    }
+    function redierctHandler() {
+        window.open("https://www.creditonebank.com/", "_blank")
+    }
 
     return (
         <div>
@@ -33,8 +40,8 @@ function landingPage() {
 
                         {/* this section for buttons  */}
                         <div className="btns">
-                            <Button text="Accept Now" btnType="primary" />
-                            <Button text="No Thanks" btnType="secondary" />
+                            <Button text="Accept Now" btnType="primary" clickHandler={clickHandler} />
+                            <Button text="No Thanks" btnType="secondary" clickHandler={redierctHandler} />
                         </div>
                         {/* terms and conditions part */}
                         <p className="apply-fee">A fee may apply.</p>
@@ -54,4 +61,4 @@ function landingPage() {
 }
 
 // export this functio to use it in App.js to rander the page 
-export default landingPage;
+export default LandingPage;
