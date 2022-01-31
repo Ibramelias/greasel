@@ -21,3 +21,12 @@
     max-width: 100%;
     height: 100%;
 }
+
+
+
+/* this section for responsive screens  */
+@media only screen and (max-width: 670px) {
+    .header-logo {
+    margin: 0 auto;
+    }
+}
