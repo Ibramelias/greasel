@@ -17,8 +17,10 @@ function LandingPage() {
     function clickHandler() {
         setHeaderStyle({ logo: logoWhite, colorClass: "header--blue" })
     }
-
-
+    // this function to direct the user into credit bank home page in new tab
+    function redierctHandler() {
+        window.open("https://www.creditonebank.com/", "_blank")
+    }
     return (
         <div>
             {/* header component of the page  */}
