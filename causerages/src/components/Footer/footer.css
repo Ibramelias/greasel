@@ -1,0 +1,11 @@
+
+.footer{
+    background-color: var(--grey900);
+    padding-bottom: 30px;
+    color: var(--grey50);
+    font-size: 14px;
+}
+
+.footer-text{
+    padding-top: 20px;
+}
