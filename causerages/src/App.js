@@ -1,5 +1,4 @@
 
-// import landing page function and app.css files
 import LandingPage from './page';
 import './App.css';
 
