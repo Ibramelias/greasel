@@ -12,13 +12,12 @@ import './landingpage.css'
 
 
 function LandingPage() {
+    // this function to let the header change his color to blue.
     const [headerStyle, setHeaderStyle] = useState({ logo, colorClass: "header--white" });
     function clickHandler() {
         setHeaderStyle({ logo: logoWhite, colorClass: "header--blue" })
     }
-    function redierctHandler() {
-        window.open("https://www.creditonebank.com/", "_blank")
-    }
+
 
     return (
         <div>
