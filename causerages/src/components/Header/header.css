@@ -25,7 +25,7 @@
 
 
 /* this section for responsive screens  */
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 767px) {
     .header-logo {
     margin: 0 auto;
     }
