@@ -90,14 +90,56 @@
 
 /* responsive section */
 
-@media only screen and (max-width: 1200){
+@media only screen and (max-width: 1200px){
     .background-img{
         max-width: 50%;
     }
 }
 
-@media only screen and (max-width: 992) {
+@media only screen and (max-width: 992px) {
     .main-header{
         font-size: 32px;
+    }
+    .ad_container{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+    }
+    .promotion{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .promotion-precentage, .promotional-apr, .variable-period{
+        padding: 0;
+    }
+    .promotional-apr{
+        border-right: 0;
+        margin-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--grey900);
+    }
+    .variable-period{
+        margin-top: 20px;
+    }
+    .main-sub-header{
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .terms{
+        font-size: 12.5px;
+        text-align: left;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .apply-fee{
+        padding: 0;
     }
 }
