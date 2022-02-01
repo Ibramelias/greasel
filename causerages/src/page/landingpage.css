@@ -143,3 +143,14 @@
         padding: 0;
     }
 }
+
+@media only screen and (max-width: 767px){
+    .main-content{
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .ad_container{
+        width: 100%;
+    }
+    
+}
