@@ -169,3 +169,14 @@
         margin-bottom: 5%;
     }
 }
+
+
+@media only screen and (max-width: 413px){
+    .main-header{
+        font-size: 49px;
+        padding-bottom: 30px;
+    }
+    .main-sub-header{
+        font-size: 26px;
+    }
+}
