@@ -149,12 +149,15 @@
         padding: 0;
         flex-direction: column-reverse;
     }
+    .btns{
+        display: inline-grid;
+    }
     .ad_container{
         width: 100%;
     }
     .background-img{
         position: relative;
-        max-width: 100px;
+        max-width: 100%;
         margin-bottom: 30px;
     }
     .background-img::before{
