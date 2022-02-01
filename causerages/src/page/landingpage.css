@@ -4,7 +4,6 @@
     color: var(--blue500);
     min-height: 82vh;
     display: flex;
-    /* flex-direction: row-reverse; */
     padding-top: 7%;
 }
 .ad_container {
@@ -28,8 +27,6 @@
     font-weight: 700;
     font-size: 60px;
     padding-right: 35px;
-    /* padding-bottom: 10px; */
-
 }
 
 .promotional-apr{
@@ -50,7 +47,6 @@
 }
 
 .apply-fee{
-    /* width: 10%; */
     padding-left: 30px;
 }
 
@@ -68,7 +64,6 @@
     right: 0;
     overflow: hidden;
     z-index: 1;
-    /* background: linear-gradient(rgb(0,0,0,0.9)); */
     background: rgb(240,240,240);
 }
 .background-img img {
