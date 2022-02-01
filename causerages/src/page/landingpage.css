@@ -152,5 +152,9 @@
     .ad_container{
         width: 100%;
     }
-    
+    .background-img{
+        position: relative;
+        max-width: 100px;
+        margin-bottom: 30px;
+    }
 }
