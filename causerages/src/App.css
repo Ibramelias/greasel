@@ -48,5 +48,8 @@
     .container {
       width: 1170px;
     }
+    body{
+      width: 100%;
+    }
 }
   

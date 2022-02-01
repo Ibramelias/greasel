@@ -158,7 +158,6 @@
     .background-img{
         position: relative;
         max-width: 100%;
-        margin-bottom: 30px;
     }
     .background-img::before{
         width: 100%;
@@ -166,14 +165,17 @@
         background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(240,240,240,0.9) 25%,rgba(240,240,240,0.7) 50%,rgba(240,240,240,0.6) 60%,rgba(240,240,240,.5) 70%,rgba(240,240,240,.4) 80%, rgba(240,240,240,.3) 90%,rgba(240,240,240,0.2) 95%, rgba(240,240,240,0.1) 99%);
     }
     .terms{
-        margin-bottom: 5%;
+        margin-bottom: 6%;
+        padding-top: 10%;
+        text-align: center;
+        font-size: 16px;
     }
 }
 
 
 @media only screen and (max-width: 413px){
     .main-header{
-        font-size: 49px;
+        font-size: 39px;
         padding-bottom: 30px;
     }
     .main-sub-header{
