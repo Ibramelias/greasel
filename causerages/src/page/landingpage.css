@@ -2,7 +2,7 @@
     position: relative;
     background-color: var(--grey50);
     color: var(--blue500);
-    min-height: 82vh;
+    min-height: 84vh;
     display: flex;
     padding-top: 7%;
 }
@@ -58,7 +58,6 @@
 
 .background-img {
     position: absolute;
-    max-width: 50%;
     height: 100%;
     top: 0;
     right: 0;
