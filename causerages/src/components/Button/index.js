@@ -3,7 +3,7 @@
 import React from "react";
 import './button.css'
 
-// this function it take  props,  resuble button so we can render these component manytimes
+// resuble btn takes props //
 function Button({ text, type, clickHandler }) {
     return (
         <button type="button" className={`btn btn--${type}`} onClick={clickHandler}>
@@ -12,5 +12,5 @@ function Button({ text, type, clickHandler }) {
     );
 }
 
-// this line to export function Button() to let us use this component in landing page 
+// this line to export component btn to use it the page 
 export default Button;
