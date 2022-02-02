@@ -2,7 +2,7 @@
     position: relative;
     background-color: var(--grey50);
     color: var(--blue500);
-    min-height: 84vh;
+    min-height: 85vh;
     display: flex;
     padding-top: 7%;
 }
@@ -51,13 +51,14 @@
 }
 
 .terms{
-    margin-top: 22%;
+    padding-top: 22%;
     padding-left: -10px;
     color: var(--grey400);
 }
 
 .background-img {
     position: absolute;
+    max-width: 50%;
     height: 100%;
     top: 0;
     right: 0;
@@ -69,6 +70,8 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
+    border-top: 1px solid var(--grey50);
+    border-left: 1px solid var(--grey50);
 }
 
 .background-img::before {
@@ -140,6 +143,19 @@
     .apply-fee{
         padding: 0;
     }
+    .background-img img{
+        border: 0;
+    }
+}
+
+@media only screen and (min-width: 767px )and (max-width: 992px){
+    .main-content{
+        min-height: 90vh;
+    }
+    .terms{
+        padding-top: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 767px){
@@ -156,6 +172,11 @@
     .background-img{
         position: relative;
         max-width: 100%;
+        height: 100%;
+    }
+    .background-img img {
+        width: 100%;
+        object-position: top;
     }
     .background-img::before{
         width: 100%;
@@ -170,13 +191,18 @@
 }
 
 
-@media only screen and (max-width: 413px){
+@media only screen and (max-width: 480px){
     .main-header{
         font-size: 34px;
         padding-bottom: 30px;
     }
     .main-sub-header{
         font-size: 24px;
+    }
+    .background-img{
+        position: relative;
+        max-width: 100%;
+        height: 200px;
     }
 }
 

@@ -3,10 +3,10 @@
 import React from "react";
 import './button.css'
 
-// this function it takes three paramters and this resuble button so we can render these component manytimes
-function Button({ text, btnType, clickHandler }) {
+// this function it take  props,  resuble button so we can render these component manytimes
+function Button({ text, type, clickHandler }) {
     return (
-        <button type="button" className={`btn btn--${btnType}`} onClick={clickHandler}>
+        <button type="button" className={`btn btn--${type}`} onClick={clickHandler}>
             {text}
         </button>
     );

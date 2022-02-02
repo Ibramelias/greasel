@@ -12,8 +12,8 @@ import './landingpage.css'
 
 
 function LandingPage() {
-    // this function to let the header change his color to blue.
     const [headerStyle, setHeaderStyle] = useState({ logo, colorClass: "header--white" });
+    // this function to let the header change his color to blue.
     function clickHandler() {
         setHeaderStyle({ logo: logoWhite, colorClass: "header--blue" })
     }
@@ -41,8 +41,8 @@ function LandingPage() {
 
                         {/* this section for buttons  */}
                         <div className="btns">
-                            <Button text="Accept Now" btnType="primary" clickHandler={clickHandler} />
-                            <Button text="No Thanks" btnType="secondary" clickHandler={redierctHandler} />
+                            <Button text="Accept Now" type="primary" clickHandler={clickHandler} />
+                            <Button text="No Thanks" type="secondary" clickHandler={redierctHandler} />
                         </div>
                         {/* terms and conditions part */}
                         <p className="apply-fee">A fee may apply.</p>
