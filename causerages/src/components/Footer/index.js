@@ -3,7 +3,7 @@
 import React from "react";
 import './footer.css'
 
-// footer function to render footer component in the landing page 
+// footer function to render footer component in the page 
 function Footer() {
     return (
         <footer className="footer">
@@ -14,5 +14,5 @@ function Footer() {
     );
 }
 
-// this line to export function Footer() to let us use this component in landing page 
+// this line to export footer component to use it the page 
 export default Footer

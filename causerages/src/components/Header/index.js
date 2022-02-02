@@ -4,7 +4,7 @@ import React from "react";
 import "../../App.css";
 import "./header.css"
 
-// this function take two paramters to let the header change his color to blue 
+// this function takes props to let the header change his color to blue 
 function Header({ logoSrc, colorClass = "header--blue" }) {
     return (
         // HTML structure for the header 
@@ -18,5 +18,5 @@ function Header({ logoSrc, colorClass = "header--blue" }) {
     )
 }
 
-// this line to export this function Header () to let us use this component in landing page 
+// this line to export this header component to use it the page 
 export default Header;

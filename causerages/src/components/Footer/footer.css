@@ -9,3 +9,10 @@
 .footer-text{
     padding-top: 20px;
 }
+
+
+@media only screen and (max-width: 280px) {
+    .footer{
+        font-size: 10px;
+    }
+}
